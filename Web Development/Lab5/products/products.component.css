@@ -1,0 +1,164 @@
+.container{
+  position: relative;
+  top: -20px;
+  left: -10px;
+  width: 1400px;
+  height: 35px;
+  background-color: white;
+  display: flex;
+}
+
+  .Kolesa{    
+  position: relative;
+  left: 100px;
+  color: black;
+  margin-top: 20px;
+  top: 5px;
+}
+  .Kabinet{
+      position: relative;
+      left: 900px;
+      top: -40px;
+      color: #06c;
+  }
+  a{
+      margin-left: 20px;
+  }
+  .Anes{
+      color: grey;
+      margin-left: 5px;
+  }
+  .dropdown {
+      position: relative;       
+      display: inline-block;
+      font-size: 18px;
+      color: #06c;
+      padding-left: 10px;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      color: #999;
+      min-width: 200px;
+     
+      z-index: 1;
+      font-size: 15px;
+    }
+    .Kolesa1{
+      position: relative;
+      top: -20px;
+      left: 90px;
+      color: black;
+      font-size: 21px;
+    }
+    .Kolesa2{
+        position: relative;
+        left: 190px;
+        top: -60px;
+        color: #06c;
+    }
+    .Podat{
+      position: relative;
+      left: 1050px;
+      top: -120px;
+      text-align: center;
+      height: 40px;
+      color: #06c;
+    }
+    .Legko{
+        position: relative;
+        height: 56px;
+        left: 90px;
+        top: -100px;
+        background-color: #fae8bb;
+        width: 1200px;
+    }
+    .top{
+        position: relative;
+       top: 15px;
+       color: #06c;
+    }
+    .LandR{
+    position: relative;
+    height: 400px;
+    left: 90px;
+    top: -100px;
+    background-color: #fae8bb;
+    width: 400px;
+    border-radius: 5px;
+    }
+    .op{
+      display: flex;
+      position: relative;
+      height: 100px;
+      left: 90px;
+      top: -100px;
+      background-color: rgb(159, 207, 255);
+      width: 1200px;
+      border-radius: 5px;
+    }
+    .Land{
+     position: relative;
+     left: 90px;
+     top: -80px;
+    }
+    .hr{
+     position: relative;
+     left: 30px;
+     width: 1200px;
+     top: -80px;
+    }
+    .money{
+      position: relative;
+      left: 90px;
+      top: -80px;
+     }
+     .Napravo{
+         position: relative;
+         margin-left: 50px;
+         margin-bottom: 30px;
+     }
+     .LXIMG{
+       display: inline-block;
+       overflow: hidden;
+      position: relative;
+      top: -600px;
+      left: 600px;
+      width: 600px;
+      height: 400px;    
+      transition:10s;   
+   }
+   .LXIMG img{
+      display: block;
+   }
+   .LXIMG:hover {
+    transform: scale(1.5);
+   }
+   
+   .Cars{
+      position: relative;
+      left: 90px;
+      top: -500px;
+  }
+  .Op{
+      margin-left: 50px;
+      margin-top: 50px;
+      font-size: 20px;
+  }
+  .share{
+    
+      width: 100px;
+      height: 40px;
+      position: relative;
+      left: 550px;
+      bottom: 450px;
+      border-radius: 5px;
+  }
+  .Anes{
+      border-radius: 5px;
+      width: 100px;
+      height: 30px;
+      color: black;
+  }

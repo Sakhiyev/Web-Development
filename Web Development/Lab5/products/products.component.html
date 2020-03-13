@@ -1,0 +1,58 @@
+
+<div class="container">
+    <h3 class="Kolesa">КОЛЁСА | КРЫША | MARKET</h3>
+    <h4 class="Kabinet"><a href="">Сообщения</a>
+     <a href="">Пополнить счёт</a> <a class="Anes">(0 ед.)</a> 
+  
+     <div class="dropdown">
+       <span><a href="">КАБИНЕТ?</a></span>
+       <div class="dropdown-content">
+         <p class="Feature"><strong>id18BD111060 <br> личный кабинет <br> №12345678</strong></p>
+         <hr>
+         <p>М
+         <p>Настройки</p>
+         <hr>
+         <p>Выйти</p>
+       </div>
+     </div>
+     
+   </h4>
+  </div>
+  <div class="Kolesa1">
+    <h1>КОЛЁСА</h1>
+    <h5 class="Kolesa2"><a routerLink="">Машины</a>
+      <a href="">Запчасти</a>
+      <a href="">Ремонт и услуги</a>
+      <a href="">Коммерческие</a>
+      <a href="">Прочее</a>
+      <a href="">Почитать</a>
+      <a href="">Оплата штрафов</a>
+    </h5>
+     <a href="/podat"><input class="Podat" type="button" name="Podat" value="+ Подать объявление"></a>
+    </div>
+    <div class="Legko">
+      <a class="top" href="categories/1/products">Легковые</a>
+      <a class="top" href="">Автосалоны</a>
+      <a class="top" href="categories/2/products">Мототехника</a>
+      <a class="top" href="categories/3/products">Водный транспорт</a>
+    </div>
+<h1 class="Land">{{carsOnPage.name}} {{carsOnPage.model}} {{carsOnPage.Year}} года</h1>
+<hr class="hr">
+<h2 class="money"> {{carsOnPage.money}} т</h2>
+<div class="LandR">          
+     <p class="Napravo"><br><br>Город: {{carsOnPage.city}}</p>
+     <p class="Napravo">Кузов: {{carsOnPage.kuz}}</p>
+     <p *ngIf=" 10>carsOnPage.id" class="Napravo">Объем двигателя, л: {{carsOnPage.Ob}}</p>
+     <p *ngIf=" 10>carsOnPage.id" class="Napravo">Пробег: {{carsOnPage.probeg}}</p>
+     <p *ngIf=" 10>carsOnPage.id" class="Napravo">Коробка передач: {{carsOnPage.Korobka}}</p>
+     <p *ngIf=" 10>carsOnPage.id" class="Napravo">Руль: {{carsOnPage.rule}}</p>
+     <p class="Napravo">Цвет: {{carsOnPage.color}}</p> 
+    </div>
+    <div class="op">
+       <p class="Op">Описание: {{carsOnPage.Op}}</p>
+    </div>
+    <div class="LXIMG"><img name="img" src="{{carsOnPage.img}}"  alt="Lexus LX470" width="600px" height="400px"></div>
+    <a href={{carsOnPage.Anes}} target="_blank">
+        <button class="share">Отправить </button>
+        </a>
+

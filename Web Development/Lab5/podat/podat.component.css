@@ -1,0 +1,77 @@
+.container{
+    position: relative;
+    top: -20px;
+    left: -10px;
+    width: 1400px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+}
+
+    .Kolesa{    
+    position: relative;
+    left: 100px;
+    color: black;
+    margin-top: 20px;
+    top: 5px;
+}
+    .Kabinet{
+        position: relative;
+        left: 900px;
+        top: -40px;
+        color: #06c;
+    }
+    a{
+        margin-left: 20px;
+    }
+    .Anes{
+        color: grey;
+        margin-left: 5px;
+    }
+    .dropdown {
+        position: relative;       
+        display: inline-block;
+        font-size: 18px;
+        color: #06c;
+        padding-left: 10px;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        color: #999;
+        min-width: 200px;
+       
+        z-index: 1;
+        font-size: 15px;
+      }
+      .Kolesa1{
+        position: relative;
+        top: -20px;
+        left: 90px;
+        color: black;
+        font-size: 21px;
+      }
+      .Kolesa2{
+          position: relative;
+          left: 190px;
+          top: -60px;
+          color: #06c;
+      }
+      .Podat{
+        position: relative;
+        left: 1050px;
+        top: -120px;
+        text-align: center;
+        height: 40px;
+        color: #06c;
+      }
+      .Legko{
+        position: relative;
+        height: 56px;
+        left: 90px;
+        top: -100px;
+        background-color: #fae8bb;
+        width: 1200px;
+    }

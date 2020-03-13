@@ -1,0 +1,47 @@
+
+<div class="container">
+    <h3 class="Kolesa">КОЛЁСА | КРЫША | MARKET</h3>
+    <h4 class="Kabinet"><a href="">Сообщения</a>
+     <a href="">Пополнить счёт</a> <a class="Anes">(0 ед.)</a> 
+  
+     <div class="dropdown">
+       <span><a href="">КАБИНЕТ?</a></span>
+       <div class="dropdown-content">
+         <p class="Feature"><strong>id18BD111060 <br> личный кабинет <br> №12345678</strong></p>
+         <hr>
+         <p>
+         <p>Настройки</p>
+         <hr>
+         <p>Выйти</p>
+       </div>
+     </div>
+     
+   </h4>
+  </div>
+  <div class="Kolesa1">
+    <h1>КОЛЁСА</h1>
+    <h5 class="Kolesa2"><a routerLink="">Машины</a>
+      <a href="">Запчасти</a>
+      <a href="">Ремонт и услуги</a>
+      <a href="">Коммерческие</a>
+      <a href="">Прочее</a>
+      <a href="">Почитать</a>
+      <a href="">Оплата штрафов</a>
+    </h5>
+     <a href="/podat"><input class="Podat" type="button" name="Podat" value="+ Подать объявление"></a>
+    </div>
+    <div class="Legko">
+      <a class="top" href="categories/1/products">Легковые</a>
+      <a class="top" href="">Автосалоны</a>
+      <a class="top" href="categories/2/products">Мототехника</a>
+      <a class="top" href="categories/3/products">Водный транспорт</a>
+    </div>
+    <div class="LX470" *ngFor="let car of voda">
+        <img name="img" src="{{car.img}}"  alt="Lexus LX470" width="170" height="130" class="LXIMG">
+        <h5 class="Lexus"><a class="Aza" [routerLink]="['/car', car.id]">{{car.name}} {{car.model}}</a> <br> <a class="Opis">{{car.Year}} г.,  {{car.Ob}} л, {{car.probeg}}, {{car.Korobka}}, <br> {{car.Op}}</a>
+        <br><br><a class="Shym"> {{car.city}} <a>13 февраля</a> <a>4910 просмотров</a> <a>13 комментариев</a></a>
+        </h5>
+        <h3 class="Money"> {{car.money}} т <br><br> <a>в кредит</a> 
+        <div class="Credit">{{car.credit}} т/мес</div>
+        </h3>        
+    </div>

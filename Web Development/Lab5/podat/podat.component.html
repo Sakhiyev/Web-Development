@@ -1,0 +1,44 @@
+
+<div class="container">
+    <h3 class="Kolesa">КОЛЁСА | КРЫША | MARKET</h3>
+    <h4 class="Kabinet"><a href="">Сообщения</a>
+     <a href="">Пополнить счёт</a> <a class="Anes">(0 ед.)</a> 
+  
+     <div class="dropdown">
+       <span><a href="">КАБИНЕТ?</a></span>
+       <div class="dropdown-content">
+         <p class="Feature"><strong>id18BD111060 <br> личный кабинет <br> №12345678</strong></p>
+         <hr>
+         <p>
+         <p>Настройки</p>
+         <hr>
+         <p>Выйти</p>
+       </div>
+     </div>
+     
+   </h4>
+  </div>
+  <div class="Kolesa1">
+    <h1>КОЛЁСА</h1>
+    <h5 class="Kolesa2"><a routerLink="">Машины</a>
+      <a href="">Запчасти</a>
+      <a href="">Ремонт и услуги</a>
+      <a href="">Коммерческие</a>
+      <a href="">Прочее</a>
+      <a href="">Почитать</a>
+      <a href="">Оплата штрафов</a>
+    </h5>
+     <a href="/podat"><input class="Podat" type="button" name="Podat" value="+ Подать объявление"></a>
+    </div>
+    <div class="Legko">
+      <a class="top" routerLink="/car">Легковые</a>
+      <a class="top" href="">Автосалоны</a>
+      <a class="top" href="/moto">Мототехника</a>
+      <a class="top" href="/voda">Водный транспорт</a>
+    </div>
+    <input type="text"  v-model="newPhone" name="name" value="a" class="field"/><br>
+    <input type="text" name="model" value="b" class="field"/><br>
+    <input type="text" name="color" value="c" class="field"/><br>
+    <input v-on:click="cars.push(newPhone)" type="button" value="Submit" >
+
+

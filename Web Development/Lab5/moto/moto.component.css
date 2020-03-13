@@ -1,0 +1,143 @@
+.container{
+    position: relative;
+    top: -20px;
+    left: -10px;
+    width: 1400px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+}
+
+    .Kolesa{    
+    position: relative;
+    left: 100px;
+    color: black;
+    margin-top: 20px;
+    top: 5px;
+}
+    .Kabinet{
+        position: relative;
+        left: 900px;
+        top: -40px;
+        color: #06c;
+    }
+    a{
+        margin-left: 20px;
+    }
+    .Anes{
+        color: grey;
+        margin-left: 5px;
+    }
+    .dropdown {
+        position: relative;       
+        display: inline-block;
+        font-size: 18px;
+        color: #06c;
+        padding-left: 10px;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        color: #999;
+        min-width: 200px;
+       
+        z-index: 1;
+        font-size: 15px;
+      }
+      .Kolesa1{
+        position: relative;
+        top: -20px;
+        left: 90px;
+        color: black;
+        font-size: 21px;
+      }
+      .Kolesa2{
+          position: relative;
+          left: 190px;
+          top: -60px;
+          color: #06c;
+      }
+      .Podat{
+        position: relative;
+        left: 1050px;
+        top: -120px;
+        text-align: center;
+        height: 40px;
+        color: #06c;
+      }
+      .Legko{
+        position: relative;
+        height: 56px;
+        left: 90px;
+        top: -100px;
+        background-color: #fae8bb;
+        width: 1200px;
+    }
+    .LX470{
+      margin-top: 50px;
+    position: relative;
+    height: 150px;
+    left: 90px;
+    top: -100px;
+    background-color: #fae8bb;
+    width: 1200px;
+    border-radius: 5px;
+    }
+    .LXIMG{
+       position: relative;
+       top: 10px;
+       left: 10px;
+    }
+    .Lexus{
+        position: relative;
+        left: 200px;
+        color: #06c ;
+        font-size: 20px;
+        top: -150px;
+    }
+    .Opis{
+        margin-left: 0px;
+        color: black;
+        font-size: 16px;
+    }
+    .Money{
+        margin-right: 10px;
+        position: relative;            
+        text-align: right;
+        top: -290px;
+    }
+    .Credit{
+        margin-top: 10px;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+        left: 1040px;
+        background-color: rgb(255, 230, 0);
+        width: 150px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .Shym{
+        margin-left: 0px;
+        color: rgb(138, 138, 138);
+        font-size:15px;
+    }
+    a.Shym{
+        margin-left: 10px;
+    }
+    .Cars{
+        position: relative;
+        left: 90px;
+        top: -50px;
+    }
+    .Aza{
+    margin-left: 0px;
+    }
+    .Anes{
+        border-radius: 5px;
+        width: 100px;
+        height: 30px;
+        color: black;
+    }
