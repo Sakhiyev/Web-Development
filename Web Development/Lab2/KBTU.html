@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+ <head>    
+        <script src="jquery.min.js"></script>
+        <link class="Anes3" rel="shortcut icon" href="data:image/png;base64,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" type="image/png">
+     <title>Twitter.com</title>
+     <style>    
+    img:hover {
+  transform: scaleX(-1);
+}
+    </style>
+          
+ </head>
+ <body> 
+       
+        
+     <div class="Left">
+            <div class="search">
+            <a class="Alima">Читайте о том, что вам интересно.</a><br><br>
+            <a class="Alima">Узнайте, о чем говорят в мире.<br></a><br>
+            <a class="Alima">Присоединяйтесь к общению.</a><br>
+            </div>
+
+            <div class="Search1">
+            
+            </div>
+            
+            <svg class="twitterIcon-bird" viewBox="0 0 1208 982" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+                <title>bird</title>
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Final-Horizon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Artboard" transform="translate(-286.000000, -117.000000)" fill-rule="nonzero" fill="#1B95E0">
+                        <path d="M1493.75308,233.195911 C1449.31783,252.922544 1401.56126,266.207828 1351.43951,272.19627 C1402.61804,241.549536 1441.92034,192.987798 1460.3889,135.116296 C1412.53168,163.498493 1359.49119,184.130942 1303.02874,195.252335 C1257.88897,147.093181 1193.42514,117 1122.16771,117 C962.190754,117 844.636121,266.258151 880.768067,421.202806 C674.896491,410.886582 492.324484,312.253414 370.089808,162.341063 C305.17308,273.705962 336.423691,419.391176 446.731805,493.16476 C406.171431,491.856361 367.925917,480.734968 334.561738,462.165765 C331.844294,576.95263 414.122472,684.342008 533.287442,708.245454 C498.413572,717.706186 460.218381,719.9204 421.368991,712.47259 C452.871217,810.904465 544.358512,882.514158 652.854997,884.52708 C548.686294,966.201382 417.443793,1002.68559 286,987.186091 C395.653915,1057.48739 525.940278,1098.50067 665.838342,1098.50067 C1125.89162,1098.50067 1385.81015,709.956437 1370.10936,361.469352 C1418.52012,326.494836 1460.53987,282.864756 1493.75308,233.195911 Z" id="bird"></path>
+                    </g>
+                </g>
+            </svg>
+            </div>
+
+
+            <div class="Right">
+                    <div class="IMG" ><img src="https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/Twitter_bird_logo_2012.svg/99px-Twitter_bird_logo_2012.svg.png" width="40" height="40">
+                        </div>
+                        <div>
+                            <input class="Voiti"  type="button" name="Anes1" value="Войти" href="https://twitter.com/login">
+                        </div>
+                        <div class="H1">
+                            <h1>Узнайте, что происходит в мире прямо сейчас.
+                            <h1>
+                        </div>
+                        <div class="H2">
+                                <h2><strong>Присоединяйтесь к Твиттеру прямо сейчас!</strong>
+                                <h2>
+                            </div>
+                            <div>
+                                    <input class="Regis"  type="button" name="Anes2" value="Регистрация" >
+                                </div>
+                                <div>
+                                        <a href="file:///C:/Users/%D0%90%D1%81%D0%BA%D0%B0%D1%80/Desktop/Algo_2019/Github.html"><input class="Voiti2"  type="button" name="Anes2" value="Войти" ></a>
+                                    </div>
+            </div>   
+            <div class="Bottom">
+                <div class="Sal">
+                   <a class="A">О Нас</a>  
+                   <a class="A">Справочный центр</a>
+                   <a class="A">Условия</a>
+                   <a class="A">Условия</a>
+                   <a class="A">Политика каонфиденциальности</a>
+                   <a class="A">Файлы cookie</aclass="A">
+                   <a class="A">Информация о рекламе</a>
+                   <a class="A">Блог</a>
+                   <a class="A">Статус</a>
+                   <a class="A">Вакансии</a>
+                   <a class="A">Бренд</a>
+                   <a class="A">Реклама</a>
+                   <a class="A">Маркетинг</a>
+                   <a class="A" >Бизнес</a>
+                   <a class="A" >Разработчики</a>
+                   <a class="A">Каталог</a>
+                   <a class="A">Настройки</a>
+                   <p>© INSTAGRAM ОТ FACEBOOK, 2020</p>
+   
+                </div>        
+              </div>  
+              
+            
+           
+ </body> 
+</html>

@@ -1,0 +1,62 @@
+
+<div class="container">
+    <h3 class="Kolesa">КОЛЁСА | КРЫША | MARKET</h3>
+    <h4 class="Kabinet"><a href="">Сообщения</a>
+     <a href="">Пополнить счёт</a> <a class="Anes">(0 ед.)</a> 
+  
+     <div class="dropdown">
+       <span><a href="">КАБИНЕТ?</a></span>
+       <div class="dropdown-content">
+         <p class="Feature"><strong>id18BD111060 <br> личный кабинет <br> №12345678</strong></p>
+         <hr>
+         <p>Мои обьявления</p>
+         <p>Настройки</p>
+         <hr>
+         <p>Выйти</p>
+       </div>
+     </div>
+     
+   </h4>
+ </div>
+ <div class="Kolesa1">
+    <h1>КОЛЁСА</h1>
+    <h5 class="Kolesa2"><a href="">Машины</a>
+      <a href="">Запчасти</a>
+      <a href="">Ремонт и услуги</a>
+      <a href="">Коммерческие</a>
+      <a href="">Прочее</a>
+      <a href="">Почитать</a>
+      <a href="">Оплата штрафов</a>
+    </h5>
+     <input class="Podat" type="button" name="Podat" value="+ Подать объявление">
+    </div>
+    <div class="Legko">
+        <a class="top" href="">Легковые</a>
+        <a class="top" href="">Автосалоны</a>
+        <a class="top" href="">Мототехника</a>
+        <a class="top" href="">Водный транспорт</a>
+      </div>
+      <h1 class="Land">{{name}} {{model}} {{Year}} года</h1>
+      <hr class="hr">
+      <h2 class="money"> {{money}} т</h2>
+      <div class="LandR">          
+           <p class="Napravo"><br><br>Город: {{city}}</p>
+           <p class="Napravo">Кузов: {{kuz}}</p>
+           <p class="Napravo">Объем двигателя, л: {{Ob}}</p>
+           <p class="Napravo">Пробег: {{probeg}}</p>
+           <p class="Napravo">Коробка передач: {{Korobka}}</p>
+           <p class="Napravo">Руль: {{rule}}</p>
+           <p class="Napravo">Цвет: {{color}}</p> 
+          </div>
+          <div class="op">
+             <p class="Op">Описание: {{Op}}</p>
+          </div>
+          <img name="img" src="https://astkt-photos-kl.kcdn.kz/83/83139ab5-21ee-47b8-8b29-390e8d460e76/1-750x470.jpg"  alt="Lexus LX470"  class="LXIMG">
+          <div class="Cars">
+            <button class="Anes" onclick="javascript:img.src='https://astkt-photos-kl.kcdn.kz/83/83139ab5-21ee-47b8-8b29-390e8d460e76/1-750x470.jpg'"  (click)="carSelect('LX470')">Lexus LX470</button>
+            <button class="Anes" onclick="javascript:img.src='https://shmkt-photos-kl.kcdn.kz/65/65fce8f2-5fe9-4f7c-b49f-8b5a0dc011be/1-750x470.jpg'" (click)="carSelect('GS300')">Lexus GS300</button>
+            <button class="Anes" onclick="javascript:img.src='https://shmkt-photos-kl.kcdn.kz/a4/a41e81b3-2832-4c69-b7c4-cd7bd24596b9/7-750x470.jpg'" (click)="carSelect('RR')">Range Rover</button>
+            </div>
+            <a href={{Anes}} target="_blank">
+            <button class="share">Отправить</button>
+            </a>

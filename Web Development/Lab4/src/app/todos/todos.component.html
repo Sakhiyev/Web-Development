@@ -1,0 +1,57 @@
+<div class="container">
+    <h3 class="Kolesa">КОЛЁСА | КРЫША | MARKET</h3>
+    <h4 class="Kabinet"><a href="">Сообщения</a>
+     <a href="">Пополнить счёт</a> <a class="Anes">(0 ед.)</a> 
+  
+     <div class="dropdown">
+       <span><a href="">КАБИНЕТ?</a></span>
+       <div class="dropdown-content">
+         <p class="Feature"><strong>id18BD111060 <br> личный кабинет <br> №12345678</strong></p>
+         <hr>
+         <p>Мои обьявления</p>
+         <p>Настройки</p>
+         <hr>
+         <p>Выйти</p>
+       </div>
+     </div>
+     
+   </h4>
+ </div>
+ <div class="Kolesa1">
+    <h1>КОЛЁСА</h1>
+    <h5 class="Kolesa2"><a href="">Машины</a>
+      <a href="">Запчасти</a>
+      <a href="">Ремонт и услуги</a>
+      <a href="">Коммерческие</a>
+      <a href="">Прочее</a>
+      <a href="">Почитать</a>
+      <a href="">Оплата штрафов</a>
+    </h5>
+     <input class="Podat" type="button" name="Podat" value="+ Подать объявление">
+    </div>
+    <div class="Legko">
+        <a class="top" href="">Легковые</a>
+        <a class="top" href="">Автосалоны</a>
+        <a class="top" href="">Мототехника</a>
+        <a class="top" href="">Водный транспорт</a>
+      </div>
+      <div class="LX470" *ngIf="Ob>4">
+        <img name="img" src="https://astkt-photos-kl.kcdn.kz/83/83139ab5-21ee-47b8-8b29-390e8d460e76/1-750x470.jpg"  alt="Lexus LX470" width="170" height="130" class="LXIMG">
+        <h5 class="Lexus"><a class="Aza" routerLink="/car">{{name}} {{model}}</a> <br> <a class="Opis">{{Year}} г.,  {{Ob}} л, {{probeg}}, {{Korobka}}, <br> {{Op}}</a>
+        <br><br><a class="Shym"> {{city}} <a>13 февраля</a> <a>4910 просмотров</a> <a>13 комментариев</a></a>
+        </h5>
+        <h3 class="Money"> {{money}} т <br><br> <a>в кредит</a> 
+        <div class="Credit">{{credit}} т/мес</div>
+        </h3>
+        </div>
+        <div class="Cars">
+        <button class="Anes" onclick="javascript:img.src='https://astkt-photos-kl.kcdn.kz/83/83139ab5-21ee-47b8-8b29-390e8d460e76/1-750x470.jpg'"  (click)="carSelect('LX470')">Lexus LX470</button>
+        <button class="Anes"  onclick="javascript:img.src='https://shmkt-photos-kl.kcdn.kz/65/65fce8f2-5fe9-4f7c-b49f-8b5a0dc011be/1-750x470.jpg'" (click)="carSelect('GS300')">Lexus GS300</button>
+        <button class="Anes" onclick="javascript:img.src='https://shmkt-photos-kl.kcdn.kz/a4/a41e81b3-2832-4c69-b7c4-cd7bd24596b9/7-750x470.jpg'" (click)="carSelect('RR')">Range Rover</button>
+        </div>
+
+  
+        
+        
+      
+ 

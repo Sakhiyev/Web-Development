@@ -1,0 +1,164 @@
+body{
+    overflow: hidden;
+     padding: 0px;
+     margin: 0px;
+    }
+
+.twitterIcon-bird {   
+    position: -webkit-sticky;
+    top: 600px;
+    height: 145vh;   
+    width: 1250px;
+
+}
+.Left{
+    background-color: #1da1f2 ;
+    width:50%;    
+    height:570px; 
+    float:left;
+    max-height: 700px;
+}
+.Right{
+    width:50%;
+    height:570px;
+    float: right;
+    background-color: white;
+    
+}
+.Bottom{
+    width:100%;
+    height:90px;
+    position: relative;
+    top: 570px;
+    background-color: rgb(255, 255, 255); 
+    font-size: 17px; 
+    text-align: center;  
+}
+.IMG{
+    position: relative;
+    left: 0px;
+    top: 135px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.H1{
+    font-size: 15px; 
+    position: relative;
+    left: 0px;
+    top: 138px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.H2{
+    font-size: 14px; 
+    position: relative;
+    left: 0px;
+    top: 155px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Voiti{       
+    border-color:  #1da1f2;
+    position: relative;
+    left: 135px;
+    top: 95px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;   
+  width: 15mm;
+  height: 10mm;
+  border-radius: 25px;
+  text-align: center;
+  color: #1da1f2;
+}
+
+.Regis{   
+    background: #1da1f2 ;
+    border-color:  #1da1f2;
+    position: relative;
+    left: 0px;
+    top: 145px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;   
+  width: 90mm;
+  height: 10mm;
+  border-radius: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Voiti2{   
+    background: #ffffff ;
+    border-color:  #1da1f2;
+    position: relative;
+    left: 0px;
+    top: 160px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;   
+  width: 90mm;
+  height: 10mm;
+  border-radius: 25px;
+  text-align: center;
+  color: #1da1f2;
+}
+
+.Anes{
+    width:100%;
+    height:400px;
+    position: relative;
+    top: 600px;
+    color: rgb(2, 0, 0);
+}
+.Search1{
+    opacity:0.2 ;
+    position: relative;
+    left: -70px;
+    top: 195px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.search{
+    color: white;
+    font-size: 24px; 
+    position: relative;
+    left: 0px;
+    top: 210px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;    
+}
+.Sal{
+  position: relative;
+  width: 100%;
+  color: #999;
+  font-size: 15px;
+  top: -550px;
+}
+.A{
+  color:#999 ;
+}
+.Alima{
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
