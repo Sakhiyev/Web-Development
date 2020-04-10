@@ -1,0 +1,39 @@
+.profile-container {
+  background: #EBECF0;
+  margin: auto;
+}
+
+.left-menu {
+  background: #EBECF0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+}
+
+.menu-btn {
+  border: 0;
+  outline: 0;
+  border-radius: 50px;
+  margin-top: 1%;
+  width: 30%;
+  padding: 1% 1% 1% 1%;
+  background-color: #EBECF0;
+  box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+  text-align: center;
+  color: rgb(97, 103, 124);
+  text-shadow: 1px 1px 0 #FFF;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.2px;
+  font-weight: bold;
+}
+
+.menu-btn:hover {
+  box-shadow: -2px -2px 5px white, 2px 2px 5px #BABECC;
+}
+
+.menu-btn:active {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px white;
+}

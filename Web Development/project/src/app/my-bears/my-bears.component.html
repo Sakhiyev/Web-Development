@@ -1,0 +1,30 @@
+<div class="body">
+<app-user-profile></app-user-profile>
+<div class="bear-form">
+  <div class="inp">
+    <label>Title: <br>
+      <input type="text">
+    </label>
+  </div>
+  <div class="inp">
+    <label>Description: <br>
+      <input type="text">
+    </label>
+  </div>
+  <div class="inp">
+    <button (click)="newBear()">Add bear</button>
+  </div>
+</div>
+<hr>
+<div class="items">
+  <div *ngFor="let bear of savedBears" class="card" routerLink="/bear/:{{bear.id}}/details">
+    <h2>
+      <a [title]="bear.title + ' details'">
+        {{ bear.title }}
+      </a>
+    </h2>
+    <img src="{{bear.front_image}}" style = "width:50%;">
+  </div>
+</div>
+</div>
+<app-footer></app-footer>

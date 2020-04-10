@@ -1,0 +1,28 @@
+<div class="body">
+  <app-user-profile></app-user-profile>
+<div class="profile-cont">
+  <form class="user-data">
+    <label>Name: {{user.name}} <br>
+      <input [(ngModel)]="user.name" name="firstname" placeholder="{{user.name}}">
+    </label>
+    <label>Last Name: {{user.last_name}}<br>
+      <input [(ngModel)]="user.last_name" name="lastname" placeholder="{{user.last_name}}">
+    </label>
+    <label>Email: {{user.email}}<br>
+      <input [(ngModel)]="user.email" name="email" placeholder="{{user.email}}">
+    </label>
+    <button class="button1">
+      Save
+    </button>
+  </form>
+  <div class="user-photo">
+    <img src="{{user.image}}" alt="profile">
+  </div>
+  <div>
+    <button class="button1 button2" (click)="logOut()" routerLink="/main">
+      Logout
+    </button>
+  </div>
+</div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,76 @@
+.profile-cont{
+  width: 70%;
+  margin: auto;
+  padding-top: 1%;
+  display: flex;
+  flex-direction: row;
+}
+
+.user-data {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2%;
+  margin-right: 5%;
+}
+
+input{
+  border: 0;
+  outline: 0;
+  border-radius: 50px;
+  margin-top: 2%;
+  padding: 2%;
+  text-align: left;
+  width: 100%;
+  background-color: #EBECF0;
+  text-shadow: 1px 1px 0 #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+  color: rgb(97,103,124);
+  font-weight: bold;
+}
+
+label{
+  text-shadow: 1px 1px 0 #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+}
+.body{
+  background-color: #EBECF0;
+}
+.user-photo {
+  margin: auto;
+}
+img {
+  width: 70%;
+  border-radius: 50%;
+  box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+}
+
+.button1{
+  border: 0;
+  outline: 0;
+  border-radius: 50px;
+  margin-top: 10%;
+  padding: 1%;
+  background-color: #EBECF0;
+  box-shadow: -5px -5px 20px #FFF,  5px 5px 20px #BABECC;
+  text-align: center;
+  color: rgb(97,103,124);
+  text-shadow: 1px 1px 0 #FFF;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.2px;
+  font-weight: bold;
+}
+
+.button2{
+  padding: 15% 50%;
+}
+
+button:hover {
+  box-shadow: -2px -2px 5px white, 2px 2px 5px #BABECC;
+}

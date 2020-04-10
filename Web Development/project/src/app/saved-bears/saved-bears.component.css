@@ -1,0 +1,36 @@
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 2%;
+}
+.body{
+  background-color: #EBECF0;
+}
+.card {
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #d5d9e7;
+  border-style: solid;
+  padding: 0.5%;
+  width: 30%;
+  margin: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  font-size: 15px;
+  color: #61677C;
+  text-align: center;
+  background-color: #EBECF0;
+}
+
+.card img {
+  
+  height: 200px;
+}
+
+.card:hover {
+  box-shadow: 32px 64px 64px 32px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-weight: lighter;
+}

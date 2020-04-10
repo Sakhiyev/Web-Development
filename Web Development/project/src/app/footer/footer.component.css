@@ -1,0 +1,33 @@
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #d5d9e7;
+  color: #61677C;
+  font-size: 15px;
+  padding: 2% 15% 5% 0;
+  background-color: #EBECF0;
+}
+a{
+  margin-top: 10px;
+}
+strong{
+  margin-bottom: 10px;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+}
+.body{
+  background-color: #EBECF0;
+  padding-top: 10%;
+  font-family: sans-serif;
+}
+.bottom{
+  background-color: #26292f;
+  color: #d4d5d9;
+  text-align: center;
+  padding: 1%;
+}

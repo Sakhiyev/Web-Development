@@ -1,0 +1,23 @@
+<nav>
+  <div class="container">
+    <div class="logo" routerLink="/main">
+      <img src="http://hestia.sydney.mcdir.ru/wp-content/uploads/2018/07/002128_1384377688-600x617.png" alt="">
+      <div class="nav-title">
+        <a>Плюшевый "TeddyBear"</a>
+      </div>
+    </div>
+    
+    <div class="btn-group">
+      <div>
+        <button [routerLink]="['/login']" class="unit" type="button" id="login">Login</button>
+      </div>
+      <div>
+        <button [routerLink]="['/signup']" class="unit" type="button" id="signup">Sign up</button>
+      </div>
+      <div>
+        <button [routerLink]="['/profile/details']" class="unit setInvisible" id="profile" type="button">Profile
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
