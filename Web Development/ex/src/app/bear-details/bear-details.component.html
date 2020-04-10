@@ -1,0 +1,47 @@
+<div *ngIf="selectedItem">
+  <div class="card1">
+    <div class="title">
+      {{selectedItem.category.name}}
+      <h2>
+        {{selectedItem.title}}
+      </h2>
+      <div>
+        <button type="button" (click)="like()">Like</button>
+        <button type="button" (click)="purchase()">Purchase</button>
+        <button type="button" (click)="save()">Save</button>
+        <button type="button" (click)="back()">Back</button>
+      </div>
+    </div>
+    <hr>
+    
+      <img src={{selectedItem.front_image}} alt={{selectedItem.title}} style="width:25%;">
+    
+    <div>
+      <div class="section">
+        <h4>
+          Rating: {{selectedItem.likes}}
+        </h4>
+        <h4>
+          Price: {{selectedItem.price}}
+        </h4>
+      </div>
+      <div class="section">
+        <p>Description:</p> {{selectedItem.description}}
+      </div>
+      <div class="intro">
+       
+        <div class="card" style="width: 60%">
+          <div class="section">
+            <h3>Comments:</h3>
+            <div *ngFor='let step of selectedItem.comments, let i = index'>
+              <h5>
+                - {{step}}
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

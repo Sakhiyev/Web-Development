@@ -1,0 +1,20 @@
+<div>
+  <div class="best-header">
+    <p class="best-header-text">The best goods</p>
+  </div>
+  <div>
+    <ul class="best-ul">
+      <li *ngFor="let bear of bears" class="best-list" routerLink="/bear/:{{bear.id}}/details">
+        <div class="card-body">
+          <h2>
+            {{bear.title}}
+          </h2>
+          <img src={{bear.front_image}} alt={{bear.title}}>
+          <div>
+            Rating: {{bear.likes}}
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

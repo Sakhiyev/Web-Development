@@ -1,0 +1,15 @@
+<div>
+  <div class="categories-header">
+    <p class="categories-header-text">Categories </p>
+  </div>
+  <div class="categories-list">
+    <ul class="categories-ul">
+      <li *ngFor="let category of categories">
+        <a (click)="function(category.id)">
+          {{category.name}} <img src="http://hestia.sydney.mcdir.ru/wp-content/uploads/2018/07/002128_1384377688-600x617.png" width="30px" height="30px" alt="">
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
