@@ -1,31 +1,52 @@
 import { Bear } from './bear';
 
 export const BEARS: Bear[] = [
-  {
-    id: 21,
-    title: 'Kotletki s pyurewkoi',
-    description: 'best of bests',      
-    likes: 0,
-    comments: [],    
-    images: ['kotletka1.png', 'kotletka2.png'],
-    category: {id: 11, name: 'Beef'}
+ {
+    id: 1,
+    title: 'Большой Тед',
+    description: 'Какой подарок сделать девушке? Двухметровый мишка — отличный вариант. Огромные плюшевые медведи высотой 200см, станут преданными защитниками и друзьями для вашей второй половинки. Это приятный подарок для любимой девушки.',
+    likes: 17,
+    comments: [
+            'Можно какую нибудь скидку сделать???' +
+            'Доставка есть?????',
+            'Классные мишки советую купить, я девушке на 8 марта здесь купил' +
+            ' хотел трехметровую заказать можно ваш номер????',
+            'Если три возбму уступите?' +
+            'Оптом можно купить?'
+        ],
+    front_image: 'http://hestia.sydney.mcdir.ru/wp-content/uploads/2018/07/002029_1384377629.png',
+    category: {id: 0, name: 'До 120'}
   },
   {
-    id: 22,
-    title: 'Uchpuchmak',
-    description: 'with love from Tatarstan',
-    likes: 0,
-    comments: [],
-    images: ['uchpuchmak1.png', 'Uchpuchmak2.png'],
-    category: {id: 11, name: 'Beef'}
+    id: 2,
+    title: 'Миша Тедди',
+    description: 'Друзья у нас в магазине большой выбор плюшевых игрушек. Отличного качества Размеры от 20см до 3м. Качественные материалы шедрая набивка! И Бесплатная доставка по Алматы.',
+    likes: 39,
+    comments: [
+            'Можно какую нибудь скидку сделать???' +
+            'Доставка есть?????',
+            'Классные мишки советую купить, я девушке на 8 марта здесь купил' +
+            ' хотел трехметровую заказать можно ваш номер????',
+            'Если три возбму уступите?' +
+            'Оптом можно купить?'
+    ],
+    front_image: 'http://hestia.sydney.mcdir.ru/wp-content/uploads/2018/07/Teddy-Bear-PNG-HD.png',
+    category: {id: 1, name: 'До 50'}
   },
   {
-    id: 23,
-    title: 'Beshbarmak',
-    description: 'with love from Kazakhstan',
-    likes: 0,
-    comments: [],
-    images: ['beshbarmak1.png', 'beshbarmak2.png'],
-    category: {id: 4, name: 'Dinner'}
-  }
+    id: 3,
+    title: 'Мишка Гамми',
+    description: 'Друзья скоро новый год и мы подготовили вам большие скидки к нашим подаркам! Звоните пишите.',
+    likes: 19,
+    comments: [
+     'Можно какую нибудь скидку сделать???' +
+            'Доставка есть?????',
+            'Классные мишки советую купить, я девушке на 8 марта здесь купил' +
+            ' хотел трехметровую заказать можно ваш номер????',
+            'Если три возбму уступите?' +
+            'Оптом можно купить?'
+    ],
+    front_image: 'http://hestia.sydney.mcdir.ru/wp-content/uploads/2018/07/002128_1384377688.png',
+    category: {id: 2, name: 'До 30'}
+  },
 ]
