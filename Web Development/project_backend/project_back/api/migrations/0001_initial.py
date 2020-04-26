@@ -20,7 +20,11 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
+<<<<<<< HEAD
+            name='Bear',
+=======
             name='Recipe',
+>>>>>>> c0672d92e226b98bfa56946c7ae43d75e2461837
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('title', models.CharField(max_length=250)),

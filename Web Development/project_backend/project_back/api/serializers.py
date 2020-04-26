@@ -1,6 +1,10 @@
 from rest_framework import serializers
 
+<<<<<<< HEAD
+from .models import Category, Bear
+=======
 from .models import Category, Recipe
+>>>>>>> c0672d92e226b98bfa56946c7ae43d75e2461837
 
 
 class CategorySerializer(serializers.Serializer):
@@ -17,8 +21,14 @@ class CategorySerializer(serializers.Serializer):
         return instance
 
 
+<<<<<<< HEAD
+class BearSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Bear
+=======
 class RecipeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Recipe
+>>>>>>> c0672d92e226b98bfa56946c7ae43d75e2461837
         fields = ['id', 'title', 'description', 'ingredients', 'steps', 'likes', 'front_image', 'first_image',
                   'second_image', 'third_image', 'category']
