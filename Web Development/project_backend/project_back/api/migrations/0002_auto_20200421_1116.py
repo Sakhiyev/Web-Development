@@ -12,14 +12,10 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.AlterField(
-<<<<<<< HEAD
+
             model_name='bear',
             name='category',
             field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='bears', to='api.Category'),
-=======
-            model_name='recipe',
-            name='category',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='recipes', to='api.Category'),
->>>>>>> c0672d92e226b98bfa56946c7ae43d75e2461837
+
         ),
     ]
