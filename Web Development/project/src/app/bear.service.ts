@@ -1,24 +1,28 @@
 import { Injectable } from '@angular/core';
-import {List} from './list';
 import {Bear} from './bear';
-import {Observable, of} from 'rxjs';
+import {Observable} from 'rxjs';
+import {HttpClient} from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
 })
 export class BearService {
+  BASE_URL = 'http://127.0.0.1:8000';
   list: Bear[];
-  constructor() {
+  constructor(private http: HttpClient) {
     this.chooseList(1);
   }
+  getTopThree(): Observable<Recipe[]> {
+    return this.http.get<Bear[]>(`${this.BASE_URL}/api/recipes/top_three/`);
+  }
   getBears(id: number): Observable<Bear[]> {
-    this.list = List.filter(
-      bear => bear.category.id === id
-    );
-    return of (this.list);
+    return this.http.get<Bear[]>(`${this.BASE_URL}/api/bears/`);
+  }
+  getBear(id: string): Observable<Bear> {
+    return this.http.get<Bear>(`${this.BASE_URL}/api/bears/${id}/`);
   }
   chooseList(id: number): void {
-    this.getBears(id).subscribe(list => this.list = list);
+    return this.http.get<Bear[]>(`${this.BASE_URL}/api/categories/${id}/bears/`);
   }
 
 }

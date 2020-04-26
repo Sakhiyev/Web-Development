@@ -1,16 +1,15 @@
 import { Injectable } from '@angular/core';
-import { CATEGORIES} from './mock-categories';
 import {Category} from './category';
-import {Observable, of, Subject} from 'rxjs';
+import {Observable, Subject} from 'rxjs';
+import {HttpClient} from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CategoryService {
+  BASE_URL = 'http://127.0.0.1:8000';
   private trigger = new Subject<void>();
-  categories = CATEGORIES;
-  constructor() {
-  }
+  constructor(private http: HttpClient) {}
   get trigger$() {
     return this.trigger.asObservable();
   }
@@ -18,6 +17,6 @@ export class CategoryService {
     this.trigger.next();
   }
   getCategories(): Observable<Category[]> {
-    return of(this.categories);
+    return this.http.get<Category[]>(`${this.BASE_URL}/api/categories/`);
   }
 }
